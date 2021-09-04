@@ -227,6 +227,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
+		border-top: none;
 	}
 
 		.container.medium {
@@ -1772,6 +1773,9 @@ input, select, textarea {
 		margin: 0;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
+		border: none;
+		
 	}
 
 		ul.social li {
@@ -1780,6 +1784,7 @@ input, select, textarea {
 			margin: 0.25em;
 			top: 0;
 			padding-left: 0;
+			border: none;
 		}
 
 			ul.social li a {
@@ -1791,8 +1796,9 @@ input, select, textarea {
 				width: 48px;
 				height: 48px;
 				border-radius: 6px;
-				top: 0;
+				top: 4px;
 				position: relative;
+				border: none;
 			}
 
 				ul.social li a:before {
@@ -1804,7 +1810,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: #43B3E0;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1817,6 +1823,8 @@ input, select, textarea {
 					overflow: hidden;
 					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
+					
+
 				}
 
 				ul.social li a.fa-twitter {

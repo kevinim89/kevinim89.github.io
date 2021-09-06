@@ -204,6 +204,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+		color: #000
 	}
 
 	header {
@@ -2081,6 +2082,7 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		animation: myAnim 2s ease 0s 1 normal forwards;
 	}
 
 		#nav ul {

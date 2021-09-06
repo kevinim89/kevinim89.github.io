@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
+/* 
 	Miniport by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) 
 */
 
 html, body, div, span, applet, object,
@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;	
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -223,6 +225,8 @@ input, select, textarea {
 
 /* Container */
 
+	
+
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
@@ -230,8 +234,13 @@ input, select, textarea {
 		border-top: none;
 	}
 
+		.col-4 {
+			border-style: hidden;
+		}
+
+
 		.container.medium {
-			width: 900px;
+			width: 900px;	
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2003,11 +2012,29 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			/* background: linear-gradient(#5b828e,#bbcfd7,#d2c8bc,#ba9a88,#ac7e62); */
+			background: linear-gradient(#d57276,#d6c2bc,#c0cccc,#65b2c6);
+			animation: myAnim 2s ease 0s 1 normal forwards;
 		}
 
+			@keyframes myAnim {
+				0%,
+				50%,
+				100% {
+					opacity: 1;
+				}
+			
+				25%,
+				75% {
+					opacity: 0;
+				}
+			}
+
+
+
 		.wrapper.style2 {
-			background-color: #fafafa;
+			/* background: linear-gradient(#5b828e,#bbcfd7,#d2c8bc,#ba9a88,#ac7e62); */
+			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2121,11 +2148,12 @@ input, select, textarea {
 			border-radius: 100%;
 			width: 20em;
 			height: 20em;
-			margin: 0;
+			margin: 10;
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 50%;
+				border-style: solid;
 			}
 
 		#top h1 {

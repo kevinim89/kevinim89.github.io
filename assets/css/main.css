@@ -2017,7 +2017,7 @@ input, select, textarea {
 			background: linear-gradient(#d57276,#d6c2bc,#c0cccc,#65b2c6);
 			animation: myAnim 2s ease 0s 1 normal forwards;
 		}
-
+/* 
 			@keyframes myAnim {
 				0%,
 				50%,
@@ -2027,7 +2027,7 @@ input, select, textarea {
 			
 				25%,
 				75% {
-					opacity: 0;
+					opacity: 0; */
 				}
 			}
 

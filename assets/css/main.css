@@ -48,6 +48,9 @@ blockquote, q {
 		content: none;
 	}
 
+
+
+	
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -1646,6 +1649,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			/* border-radius: none;  */
 		}
 
 		.image.featured {
@@ -2014,8 +2018,9 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			/* background: linear-gradient(#5b828e,#bbcfd7,#d2c8bc,#ba9a88,#ac7e62); */
-			background: linear-gradient(#d57276,#d6c2bc,#c0cccc,#65b2c6);
-			animation: myAnim 2s ease 0s 1 normal forwards;
+			/* background: linear-gradient(#d57276,#d6c2bc,#c0cccc,#65b2c6); */
+			/* background-color: grey; */
+			/* animation: myAnim 2s ease 0s 1 normal forwards; */
 		}
 /* 
 			@keyframes myAnim {
